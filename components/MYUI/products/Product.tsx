@@ -1,4 +1,3 @@
-import { PageProp } from "@/app/products/[productId]/page";
 import { Button } from "@/components/ui/button";
 import { ImageGallery } from "@/components/ui/CrouselImage";
 import { getProduct, getProductImage } from "@/lib/data";
@@ -7,6 +6,7 @@ import { notFound } from "next/navigation";
 import { HiOutlineShieldCheck } from "react-icons/hi";
 import { ProductContent } from "./ProductContent";
 import { ProductContentData } from "@/lib/difintions";
+import { PageProp } from "@/app/(shop)/products/[productId]/page";
 
 const spanClassName = "text-sm font-bold text-gray-500";
 
